@@ -9,6 +9,7 @@ body{
   padding:10px;
   text-align:center;
 }
+
 header{
   background-color:tomato;
 }
@@ -87,3 +88,69 @@ footer{
     width: 100%;
   }
 }
+
+/*
+body{
+  font-family:'Helvetica','Arial',sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+
+
+*{
+  padding:10px;
+  text-align:center;
+}
+
+.container > *{
+  flex: 1 100%
+}
+header{
+  background-color:tomato;
+}
+.left-aside{
+  background-color:gold;
+}
+.right-aside{
+  background-color:hotpink;
+}
+main{
+  background-color:deepskyblue;
+}
+footer{
+  background-color:lightgreen;
+}
+
+@media (min-width:  800px){
+
+  main{
+    flex: 3 0px;
+  }
+
+  .left-aside {
+    order: 1;
+  }
+  main{
+    order: 2;
+  }
+  .right-aside{
+    order: 3;
+  }
+
+  footer{
+    order: 4;
+  }
+
+}
+
+@media (min-width:  600px) and (max-width:  800px){
+
+
+  aside {
+    flex: 1 auto;
+
+}
+
+ */

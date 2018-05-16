@@ -1,0 +1,30 @@
+.carre{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation: rotation 3s infinite, couleur 3s infinite;
+  margin: 200px
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3600deg);
+  }
+}
+
+@keyframes couleur {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+.carre:hover{
+  width: 150px;
+}
