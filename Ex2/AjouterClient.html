@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Ajout d'un client</title>
+    <link rel="stylesheet" media="screen" href="pizzeria.css"/>
+  </head>
+
+  <body>
+    <h1>Gestion des clients</h1>
+
+    <h2>Création d'un client</h2>
+    <a class="retourListeClient" href="ListerClient.html"><< Retour a la liste</a>
+    <form action="script/ajouter_client.php" method="POST">
+      <p><label for="nom">Nom</label><input id="nom" placeholder="Nom"/></p>
+      <p><label for="prenom">Prénom</label><input id=prenom placeholder="Prénom"/></p>
+      <p><label for="ville">Ville</label><input id="ville" placeholder="Ville"/></p>
+      <p><label for="age">Age</label><input id="age" placeholder="Age"/></p>
+      <p><button type="submit">Ajouter</button></p>
+    </form>
+
+  </body>
+</html>

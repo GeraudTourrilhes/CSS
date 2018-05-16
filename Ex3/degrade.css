@@ -1,0 +1,20 @@
+#degrade1{
+  background: linear-gradient(to bottom, blue, red);
+  height: 10em;
+  width: 100%;
+}
+#degrade2{
+  background: linear-gradient(to right, red, green);
+  height: 10em;
+  width: 100%;
+}
+#degrade3{
+  background: linear-gradient(to top, yellow, red);
+  height: 10em;
+  width: 100%;
+}
+#degrade4{
+  background: linear-gradient(to left, yellow, red);
+  height: 10em;
+  width: 100%;
+}

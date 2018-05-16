@@ -1,0 +1,59 @@
+body{
+  background-color: #EFECCA;
+  font-family:  'Helvetica', 'Arial';
+}
+
+form{
+  width: 30em;
+}
+
+h1{
+  color: #C03000;
+}
+
+h2{
+  color: #4BB5C1;
+}
+
+li{
+  border: #660000;
+  background-color: #C03000;
+  list-style-type:none;
+  display: inline-block;
+  padding: 1em;
+}
+
+li > a{
+  color: #FFF;
+  margin: 0px 5px 0px 5px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+li:hover, li > a:focus{
+  background-color: #009900;
+}
+
+footer a{
+  color: #0000FF;
+  font-style: gras;
+}
+input{
+  width: 15em;
+  float: right;
+}
+
+form p button{
+  background-color: #e84d14 ;
+  color: #FFF;
+  border-radius:5px;
+  width: 15.5em;
+  float: right;
+}
+
+.retourListeClient{
+  color: #96CA2D;
+}
